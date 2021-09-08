@@ -1,11 +1,12 @@
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
 
-.container-fluid{
+section:first-child{
     background-image: url("https://i.postimg.cc/65tvw3sy/pexels-thought-catalog-904616-1.jpg");
     background-size: cover;
-    height: 1200px;
+    height: 800px;
     width: 1503.2px;
+    
 }
 .btn{
     display: inline-block;
@@ -26,11 +27,14 @@
     transition: all 1s;
 
 }
+
+
 /*Navigation*/
 .navigation {
     font-family: Prompt;
     padding: 12px 0;
     font-size: 28px;
+    max-width: 800px;
     }
        
 .navigation ul {
@@ -46,7 +50,7 @@
 .navigation ul li a {
     text-decoration: none;
     color: #fff; 
-    
+    margin: 0 10px;
 }
 .navigation ul li a:hover {
     color: #f368e0; 
@@ -61,7 +65,6 @@
     margin: 12px 0;
     display:none;
 }
-
 
 .navigation ul li ul li a {
     color: #f368e0; 
@@ -120,3 +123,27 @@ h2{
    background-position: 0 100%;
    color:#fff;
 }
+
+/*Footer*/
+ 
+ .footer{
+     max-width: 1140px;
+     margin: 0 auto;
+     padding : 0 20px;
+     
+ }
+ .footer ul li {
+     display: inline;
+ }
+  
+ 
+ .footer ul li i {
+     font-size: 30px;
+     width: 60px;
+     height: 60px;
+     color: #050505;
+     padding-top: 15px;
+ }
+ .footer ul li a{
+     font-size: 0;
+ }
