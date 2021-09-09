@@ -2,6 +2,7 @@
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
 body{
     margin: 0;
+    
 }
 section:first-child{
     background-image: url("https://i.postimg.cc/65tvw3sy/pexels-thought-catalog-904616-1.jpg");
@@ -163,29 +164,79 @@ h2{
     text-align: center;
     margin-top: 0;
 }
+.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box-one{
+    flex: 0 0 33.333%;
+    text-align: left;
+    justify-content: center;
+    position: relative;
+    max-width: 250px;
+}
+.icon{
+    color:rgb(235, 212, 82);
+    font-size: 50px;
+    text-align: center;
+    width: 250px;
+}
+.row{
+    margin: 0 0 73px 0;
+}
 
+h3{
+    color: black;
+    font-family: Prompt;
+    text-align: center;
+    margin: 0 0 3px 0;
+}
+p{
+    color: rgb(97, 94, 94);
+    font-family: Unna;
+    text-align: center;
+}
+/*Portfolio*/
+.portfolio{
+    background-color: rgb(250, 244, 244);
+    
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.text{
+    border: none;
+    background: #fff;
+    width: 250px;
+    height: 100px;
+    
 }
 /*Footer*/
  
  .footer{
      max-width: 1140px;
+     
      margin: 0 auto;
-     padding : 0 20px;
-
+     
+ }
+ .footer ul{
+     text-align: center;
  }
  
  .footer ul li {
      display: inline;
-     text-align: center;
+     
  }
-  
  
  .footer ul li i {
      font-size: 30px;
      width: 60px;
      height: 60px;
      color: #050505;
-     padding-top: 15px;
+     
  }
  .footer ul li a{
      font-size: 0;
