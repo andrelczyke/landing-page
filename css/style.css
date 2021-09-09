@@ -1,13 +1,25 @@
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
-
+body{
+    margin: 0;
+}
 section:first-child{
     background-image: url("https://i.postimg.cc/65tvw3sy/pexels-thought-catalog-904616-1.jpg");
     background-size: cover;
     height: 800px;
-    width: 1503.2px;
+    width: 100%;
     
 }
+/* .background-image:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    bottom: 5px;
+    background-color: #62635f;
+    opacity:0.3;
+} */
+
 .btn{
     display: inline-block;
     min-width: 180px;
@@ -27,14 +39,21 @@ section:first-child{
     transition: all 1s;
 
 }
-
+.golden-button{
+    display: inline-flex;
+    
+}
 
 /*Navigation*/
 .navigation {
     font-family: Prompt;
     padding: 12px 0;
-    font-size: 28px;
+    font-size: 22px;
     max-width: 800px;
+    display: inline-flex;
+    position: absolute;
+    left: 670px;
+    top: 40px;
     }
        
 .navigation ul {
@@ -79,13 +98,15 @@ section:first-child{
 }
 
 /*Header*/
-header {
+.header {
     min-height: 500px;
+    position: relative;
+    top: 90px;
     
 }
 h1{
     font-family: Unna;
-    font-size: 60px;
+    font-size: 40px;
     color:white;
     text-align: center;
     margin-bottom: 0;
@@ -93,7 +114,7 @@ h1{
 
 h2{
     font-family: Prompt;
-    font-size: 120px; 
+    font-size: 100px; 
     color: white;
     text-align: center;
     margin-top:0;
@@ -106,12 +127,15 @@ h2{
     color:yellow;
     font-family: Lobster;
     font-size: 36px;
+    position: relative;
+    left: 25px;
 }
 .btn-one{
     border-color: rgb(235, 212, 87);
     color:rgb(235, 212, 82);
    background-image: linear-gradient(90deg, #f1e041 50%, transparent 50%);
-    
+    position: relative;
+    left: 644px;;
 }
 
 .btn:hover {
@@ -124,6 +148,16 @@ h2{
    color:#fff;
 }
 
+/* Services*/
+.page-title{
+    font-size: 50px;
+    font-family: Prompt;
+}
+.page-subtitle{
+    font-size: 36px;
+    font-family: Unna;
+    color: gray;
+}
 /*Footer*/
  
  .footer{
